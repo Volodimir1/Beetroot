@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 760px;
+  margin: auto;
+}
+.header {
+  display: block;
+  background-color: #9e0015;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 0 0;
+}
+.img_sunset {
+  text-align: center;
+  display: block;
+  margin: 15px auto 15px;
+}
+.txt {
+  margin: 0 0 25px;
+}
+.img_cars {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.img_cars img {
+  width: 80px;
+  border: 3px dashed #000000;
+}
+.footer {
+  display: block;
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+}
