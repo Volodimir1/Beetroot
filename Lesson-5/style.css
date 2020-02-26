@@ -1,0 +1,12 @@
+:root {
+  --main-color: #ffae00;
+  --white: #ffffff;
+  --dark-blue: #1c2d33;
+  --grey: #232323;
+  --dark-grey: #0b0002;
+  --brown: #202020;
+}
+
+body {
+  font-family: Raleway;
+}
