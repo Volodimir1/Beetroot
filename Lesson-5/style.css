@@ -19,7 +19,7 @@
 body,
 button,
 input,
-textaria {
+textarea {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -54,6 +54,7 @@ body {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 50%;
+  margin-bottom: 107px;
 }
 .section:not(:last-child) {
   margin-right: 69px;
@@ -140,16 +141,42 @@ body {
   margin-bottom: 26px;
 }
 .footer {
-  padding: 0 32px;
+  padding: 108px 32px 105px;
+  background-color: var(--brown);
 }
-
 .footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: 0 auto;
   max-width: var(--max-width);
+  list-style-type: none;
+}
+.footer__list-item:not(:last-child) {
+  margin-right: 72px;
 }
 .footer__image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   background-color: var(--main-color);
   width: 64px;
   height: 64px;
   border-radius: 12px 0 12px 0;
+  margin-bottom: 45px;
+}
+.footer__caption {
+  margin-bottom: 39px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.footer__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--white);
 }
