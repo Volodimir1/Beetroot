@@ -140,6 +140,7 @@ body {
 .list__item:not(:last-of-type) {
   margin-bottom: 26px;
 }
+
 .footer {
   padding: 108px 32px 105px;
   background-color: var(--brown);
