@@ -21,8 +21,13 @@
     margin-bottom: 42px;
   }
   &__list {
+    @extend %container;
     display: flex;
     justify-content: space-between;
-    @extend %container;
+  }
+  &__list-item {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
 }
