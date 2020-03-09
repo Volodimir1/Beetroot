@@ -1,0 +1,11 @@
+.header {
+  background-image: url(../images/header.png);
+  background-size: cover;
+  &__container {
+    min-height: 100vh;
+    @include flex(flex-start, center);
+  }
+  &__title {
+    @include text($H800, 800);
+  }
+}
