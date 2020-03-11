@@ -1,0 +1,12 @@
+.button {
+  border: none;
+  text-decoration: none;
+  outline: none;
+  padding: 12px 24px;
+  @include text($H300, 300, $white);
+  background-color: $header-btn-color;
+  text-transform: uppercase;
+  &--header {
+    background-color: $header-btn-color;
+  }
+}
