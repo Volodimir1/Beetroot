@@ -6,7 +6,11 @@
 @import './core/mixins';
 @import './core/common';
 
+// Common components
 @import './components/button';
+@import './components/scroll';
+
+// Components
 @import './components/logo';
 @import './components/navigation';
 @import './components/header';

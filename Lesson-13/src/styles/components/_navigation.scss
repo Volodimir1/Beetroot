@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   z-index: 11;
-  &__conteiner {
+  &__container {
     height: 100px;
     @include flex(space-between, center);
   }
