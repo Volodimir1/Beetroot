@@ -24,10 +24,8 @@
   - [Lesson 4.1](https://volodimir1.github.io/Beetroot/Lesson-4-CSS/1/index.html)
   - [Lesson 4.2](https://volodimir1.github.io/Beetroot/Lesson-4-CSS/2/index.html)
 
-- Lesson 22
+...
 
 - [Lesson 22](https://volodimir1.github.io/Beetroot/Lesson-22_JavaScript)
-
-- Lesson 23
 
 - [Lesson 23](https://volodimir1.github.io/Beetroot/Lesson-23)
