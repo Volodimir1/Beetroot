@@ -29,3 +29,6 @@
 - [Lesson 22](https://volodimir1.github.io/Beetroot/Lesson-22_JavaScript)
 
 - [Lesson 23](https://volodimir1.github.io/Beetroot/Lesson-23)
+
+- [Lesson 24](https://volodimir1.github.io/Beetroot/Lesson-24_Function)
+
