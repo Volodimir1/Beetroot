@@ -94,7 +94,7 @@ function perfectNumber(a5) {
    c5 = 1;
 }
 
-let a5 = prompt('Введите число для проверки.');
+let a5 = prompt('Введите число для проверки, совершенное ли оно.');
 let b5 = 0;
 let c5 = 0;
 if (Number.isNaN(Number(a5)) || a5 === '') 
@@ -109,6 +109,7 @@ if (Number.isNaN(Number(a5)) || a5 === '')
     }
 
 // 6. Совершенное число из диапазона чисел.
+function range () {
 let min = prompt('Введите минимальное число из диапазона.');
 let c6 = 0;
 if (Number.isNaN(Number(min)) || min === '') 
@@ -124,7 +125,7 @@ if (Number.isNaN(Number(min)) || min === '')
             a5 = i6;
             b5 = 0;
             c5 = 0;
-        // console.log(a5);
+            // console.log(a5);
             perfectNumber(a5);
             if (c5 == 1) {
             alert (`Число ${a5} - совершенное.`);
@@ -137,6 +138,9 @@ if (Number.isNaN(Number(min)) || min === '')
             alert (`В заданном диапазоне нет совершенных чисел.`)
         }
     }
+}
+
+range ()
 
 // 7. Время (часы, минуты, секунды) на экран в формате «чч:мм:сс».
 function screenTime() {
@@ -174,7 +178,7 @@ secondsToTime();
 alert(timeResult9);
 
 // 10. Разница между датами.
-// let seconds9 = 0; // Строка 172
+// let seconds9 = 0; // Задаю выше
 
 function dateDifference () {
     screenSeconds();
