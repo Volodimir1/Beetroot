@@ -121,7 +121,7 @@ if (Number.isNaN(Number(min)) || min === '')
         {
             alert(`${max} - это не число.`);
         } else {
-            for (let i6 = min; i6 <= max; i6++) {
+            for (let i6 = +min; i6 <= +max; i6++) {
             a5 = i6;
             b5 = 0;
             c5 = 0;
