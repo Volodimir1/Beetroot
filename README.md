@@ -33,3 +33,5 @@
 - [Lesson 24](https://volodimir1.github.io/Beetroot/Lesson-24_Function)
 
 - [Lesson 25](https://volodimir1.github.io/Beetroot/Lesson-25_Objects)
+
+- [Lesson 26](https://volodimir1.github.io/Beetroot/Lesson-26_Array)
