@@ -35,3 +35,5 @@
 - [Lesson 25](https://volodimir1.github.io/Beetroot/Lesson-25_Objects)
 
 - [Lesson 26](https://volodimir1.github.io/Beetroot/Lesson-26_Array)
+
+- [Lesson 27](https://volodimir1.github.io/Beetroot/Lesson-27_Cycles)
