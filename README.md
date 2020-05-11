@@ -37,3 +37,5 @@
 - [Lesson 26](https://volodimir1.github.io/Beetroot/Lesson-26_Array)
 
 - [Lesson 27](https://volodimir1.github.io/Beetroot/Lesson-27_Cycles)
+
+- [Lesson 28](https://volodimir1.github.io/Beetroot/Lesson-28_classes)
