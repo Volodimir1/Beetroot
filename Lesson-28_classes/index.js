@@ -49,7 +49,6 @@ class Marker {
             arrText.length = arrText.length;
         })
         document.write(`<p style='color: ${this.color}'>${arrText.join('')}</p>`);
-
     }
 };
 
@@ -102,10 +101,12 @@ class Employee {
         this.street = employee?.street;
         this.city = employee?.city;
         this.phone = employee?.phone;
-        this.arrEmployee = [];
+        this.arrEmployee = [];// чтобы передать массив через конструктор
     }
     addArrEmployee (id) {
-        this.arrEmployee.push(new Employee(fecthEmployee(id)));
+        let emp = new Employee(fecthEmployee(id));
+        delete emp.arrEmployee;// удаляю пустой массив из объекта
+        this.arrEmployee.push(emp);
     }
 };
 
@@ -119,10 +120,26 @@ class EmpTable extends Employee {
     constructor (arrEmployee) {
         super(arrEmployee);
     }
-
+    getHtml() {
+        let sh = '<table border="1">\n';
+        this.arrEmployee.forEach((item) => {
+            let table = () => {
+                let a = '<tr>\n';
+                let b = '<tr>\n';
+                for (let key in item) {
+                    b += '<td>' + item[key] + '</td>\n';
+                    if (this.arrEmployee.indexOf(item) == 0) a += '<th>' + key + '</th>\n';
+                } 
+                return a + '</tr>\n' + b + '</tr>\n';
+            };
+            sh += table();
+        })
+        sh += '</table>';
+        document.write(sh);
+    }
 }
 let empTable = new EmpTable();
 empTable.addArrEmployee(4);
 empTable.addArrEmployee(5);
 empTable.addArrEmployee(6);
-console.log(empTable.arrEmployee);
+empTable.getHtml();
