@@ -1,3 +1,6 @@
+<img height="200" width="400" src="https://gofrag.ru/images/18/Final-Exam-1.jpg">
+
+
 # vue-1
 
 ## Project setup
