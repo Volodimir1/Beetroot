@@ -1,4 +1,4 @@
-<img height="200" width="400" src="assets/joint_logo_min.png">
+<img height="200" width="400" src="src/assets/joint_logo_min.png">
 
 
 # vue-1
