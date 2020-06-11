@@ -1,4 +1,4 @@
-<img height="200" width="400" src="https://gofrag.ru/images/18/Final-Exam-1.jpg">
+<img height="200" width="400" src="assets/joint_logo_min.png">
 
 
 # vue-1
