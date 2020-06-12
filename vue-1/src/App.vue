@@ -43,8 +43,6 @@ export default {
   position: relative;
   bottom: 25px;
   right: 60px;
-  // padding: 0;
-  // padding-bottom: 35px;
 }
 @import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
 &__name-wrapper {
